@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(50, 50, 50); /* Dark background color */
+    color: #ffffff;           /* Light text color for contrast */
+}
+
+.card {
+    background-color: #1c1c1c; /* Darker background for cards */
+    color: #ffffff;            /* Light text color for cards */
+    border: none;              /* Remove border for a clean look */
+}
+
+.card a {
+    color: #007bff;            /* Default color for links */
+}
+
+.card a.btn {
+    color: #ffffff;            /* Ensure buttons have white text */
+}
+
+.card img {
+    width: 100%;               /* Make the image take the full width of the card */
+    height: 200px;             /* Set a fixed height */
+    object-fit: cover;
+    border-bottom: 1px solid #333; /* Border below the image for separation */
+}
